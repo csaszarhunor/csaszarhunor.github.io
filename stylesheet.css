@@ -1,0 +1,21 @@
+body {
+    background-color: grey;
+}
+
+.rounded_menu {
+    background-color: beige;
+    position: relative;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.svg_size {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
