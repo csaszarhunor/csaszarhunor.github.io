@@ -1,21 +1,73 @@
 body {
-    background-color: grey;
+    background-color: darkslategray;
+}
+
+.canvas {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: black;
+    background-size: auto;
+}
+
+.header_link {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Calibri Light', 'Verdana', sans-serif;
+    font-size: 1em;
+    color: #597272;
+    margin: 1em;
+}
+
+.header_nav {
+    float: right
+}
+
+.main_menu {
+    margin: auto;
+    width: 57em;
 }
 
 .rounded_menu {
-    background-color: beige;
-    position: relative;
+    background-color: #597272;
     display: inline-block;
-    height: 200px;
-    width: 200px;
+    height: 15em;
+    width: 15em;
     border-radius: 100%;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin: 1.5em;
+}
+
+.svg_position {
+    height: 9em;
+    width: 9em;
+    margin: 3em;
+}
+
+.divider_line {
+    margin: 3em auto 1em auto;
+    height: 0.1em;
+    width: 48em;
+    background-color: #597272;
+}
+
+h1 {
+    font-family: 'Calibri Light', 'Verdana', sans-serif;
+    color: black;
+    font-size: 1.5em;
     text-align: center;
 }
 
-.svg_size {
-    height: 150px;
-    width: 150px;
-    margin: auto;
+p {
+    font-family: 'Calibri Light', 'Verdana', sans-serif;
+    color: black;
+    font-size: 1em;
+    text-align: center;
+}
+
+
+footer {
+    background-color: black;
+    background-size: auto;
 }

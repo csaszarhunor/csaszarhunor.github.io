@@ -1,25 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>index</title>
     <link type="text/css" rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <a href="project_description.html">
-        <div class="rounded_menu">
-            <img src="images/research.svg" class="svg_size"/>
-        </div>
-    </a>
-    <a href="introduction.html">
-        <div class="rounded_menu">
-            <img src="images/person.svg" class="svg_size"/>
-        </div>
-    </a>
-    <a href="weather.html">
-        <div class="rounded_menu">
-            <img src="images/cloud.svg" class="svg_size"/>
-        </div>
-    </a>
+    <div class="canvas">
+        <header>
+                <a href="index.html" class="header_link">HOME</a>
+                <nav class="header_nav">
+                    <a href="project_description.html" class="header_link">THE PROJECT</a>
+                    <a href="introduction.html" class="header_link">INTRODUCTION</a>
+                    <a href="weather.html" class="header_link">LOCAL WEATHER</a>
+                </nav>
+        </header>
+        <main>
+            <div class="main_menu">
+                <a href="project_description.html">
+                    <div class="rounded_menu">
+                        <img src="images/research.svg" class="svg_position"/>
+                        <h1>THE PROJECT</h1>
+                    </div>
+                </a>
+                <a href="introduction.html">
+                    <div class="rounded_menu">
+                        <img src="images/person.svg" class="svg_position" alt=""/>
+                        <h1>INTRODUCTION</h1>
+                    </div>
+                </a>
+                <a href="weather.html">
+                    <div class="rounded_menu">
+                        <img src="images/cloud.svg" class="svg_position"/>
+                        <h1>LOCAL WEATHER</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="divider_line"></div>
+            <h1>WELCOME</h1>
+            <p style="width: 30em; margin-left: auto; margin-right: auto">This is a website created for a school experiment.
+                The subject of the experiment is project based learning and
+                the aim is the creation of this website in one week without
+                any prior knowledge in the field of web development.
+            </p>
+        </main>
+        <footer>
+            <p style="font-family: 'Calibri Light', 'Verdana', sans-serif; font-size: 1em; color: #597272">© Császár Hunor Tamás</p>
+        </footer>
+    </div>
 </body>
 </html>
