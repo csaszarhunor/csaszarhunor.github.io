@@ -63,7 +63,12 @@ p {
     font-family: 'Calibri Light', 'Verdana', sans-serif;
     color: black;
     font-size: 1em;
-    text-align: center;
+}
+
+li {
+    font-family: 'Calibri Light', 'Verdana', sans-serif;
+    color: black;
+    font-size: 1em;
 }
 
 
