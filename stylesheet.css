@@ -11,6 +11,10 @@ html, body {
     /*bottom footer setting*/
 }
 
+h2 {
+    color: black;
+    text-align: center;
+}
 
 h1 {
     color: black;
