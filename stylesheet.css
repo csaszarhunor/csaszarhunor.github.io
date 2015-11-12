@@ -237,12 +237,12 @@ nav#nav-mobile a:hover {
         width: 65%;  }
 
     #main_menu_names {
-        width: 344px;
+        width: 320px;
          }
 
     .name_box_under_svg {
-        margin-left: 8px;
-        margin-right: 4px;  }
+        margin-left: 5px;
+        margin-right: 0px;  }
 
     .article {
         max-width: 620px;
