@@ -6,48 +6,63 @@
     <link type="text/css" rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <div class="canvas">
-        <header>
-                <a href="index.html" class="header_link">HOME</a>
+    <div id="canvas">
+        <div id="header">
+                <a href="index.html" class="header_button">HOME</a>
                 <nav class="header_nav">
-                    <a href="project_description.html" class="header_link">THE PROJECT</a>
-                    <a href="introduction.html" class="header_link">INTRODUCTION</a>
-                    <a href="weather.html" class="header_link">LOCAL WEATHER</a>
+                    <a href="project_description.html" class="header_button">THE PROJECT</a>
+                    <a href="introduction.html" class="header_button">INTRODUCTION</a>
+                    <a href="weather.html" class="header_button">LOCAL WEATHER</a>
                 </nav>
-        </header>
-        <main>
-            <div class="main_menu">
-                <a href="project_description.html">
-                    <div class="rounded_menu">
-                        <img src="images/research.svg" class="svg_position"/>
-                        <h1>THE PROJECT</h1>
-                    </div>
-                </a>
-                <a href="introduction.html">
-                    <div class="rounded_menu">
-                        <img src="images/person.svg" class="svg_position" alt=""/>
-                        <h1>INTRODUCTION</h1>
-                    </div>
-                </a>
-                <a href="weather.html">
-                    <div class="rounded_menu">
-                        <img src="images/cloud.svg" class="svg_position"/>
-                        <h1>LOCAL WEATHER</h1>
-                    </div>
-                </a>
-            </div>
-            <div style="background-color: #597272; width: 51em; margin: auto; padding: 0.5em">
+        </div>
+        <div id="body">
+            <nav id="main_menu">
+                <div class="main_menu_button">
+                    <a href="project_description.html">
+                        <img src="images/research.svg" class="svg_image"/>
+                    </a>
+                </div>
+                <div class="main_menu_button">
+                    <a href="introduction.html">
+                        <img src="images/person.svg" class="svg_image"/>
+                    </a>
+                </div>
+                <div class="main_menu_button">
+                    <a href="weather.html">
+                        <img src="images/cloud.svg" class="svg_image"/>
+                    </a>
+                </div>
+            </nav>
+            <nav id="main_menu_names">
+                <div class="name_box_under_svg">
+                    <a href="project_description.html">
+                        <h1 class="name_under_svg">THE PROJECT</h1>
+                    </a>
+                </div>
+                <div class="name_box_under_svg">
+                    <a href="introduction.html">
+                        <h1 class="name_under_svg">INTRODUCTION</h1>
+                    </a>
+                </div>
+                <div class="name_box_under_svg">
+                    <a href="weather.html">
+                        <h1 class="name_under_svg">LOCAL WEATHER</h1>
+                    </a>
+                </div>
+            </nav>
+            <div class="article">
                 <h1>WELCOME</h1>
-                <p style="width: 30em; margin-left: auto; margin-right: auto">This is a website created for a school experiment.
+                <p>
+                    This is a website created for a school experiment.
                     The subject of the experiment is project based learning and
                     the aim is the creation of this website in one week without
                     any prior knowledge in the field of web development.
                 </p>
             </div>
-        </main>
-        <footer>
-            <p style="font-family: 'Calibri Light', 'Verdana', sans-serif; font-size: 1em; color: #597272">© Császár Hunor Tamás</p>
-        </footer>
+        </div>
+        <div id="footer">
+            <p id="footer_copyright">© Császár Hunor Tamás</p>
+        </div>
     </div>
 </body>
 </html>

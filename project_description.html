@@ -6,34 +6,36 @@
     <link type="text/css" rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-<div class="canvas">
-    <header>
-        <a href="index.html" class="header_link">HOME</a>
-        <nav class="header_nav">
-            <a href="project_description.html" class="header_link">THE PROJECT</a>
-            <a href="introduction.html" class="header_link">INTRODUCTION</a>
-            <a href="weather.html" class="header_link">LOCAL WEATHER</a>
-        </nav>
-    </header>
-    <main>
-        <div style="background-color: #597272; width: 51em; margin: auto; padding: 0.5em">
-            <h1>THE PROJECT</h1>
-            <p style="width: 30em; margin-left: auto; margin-right: auto">
-                This website is the result of a school project. The aim of the project is
-            learning the basics of HTML, CSS and JS with the method of project based learning.</p>
-            <p style="width: 30em; margin-left: auto; margin-right: auto">
-                The tools I've used during this week are following:</p>
-            <ul style="width: 30em; margin-left: auto; margin-right: auto">
-                <li>Codecademy - for learning the syntax of HTML and CSS</li>
-                <li>www.validator.w3.org - to make sure the website is according to W3C standards</li>
-                <li>www.pages.github.com - to host the website and for version controling</li>
-                <li>Webstorm - to create the website</li>
-            </ul>
+    <div id="canvas">
+        <div id="header">
+            <a href="index.html" class="header_button">HOME</a>
+            <nav class="header_nav">
+                <a href="project_description.html" class="header_button">THE PROJECT</a>
+                <a href="introduction.html" class="header_button">INTRODUCTION</a>
+                <a href="weather.html" class="header_button">LOCAL WEATHER</a>
+            </nav>
         </div>
-    </main>
-    <footer>
-        <p style="font-family: 'Calibri Light', 'Verdana', sans-serif; font-size: 1em; color: #597272">© Császár Hunor Tamás</p>
-    </footer>
-</div>
+        <div id="body">
+            <div class="article">
+                <h1>THE PROJECT</h1>
+                <p>
+                    This website is the result of a school project. The aim of the project is
+                learning the basics of HTML, CSS and JS with the method of project based learning.</p>
+                <p>
+                    The tools I've used during this week are following:</p>
+                <ul style="width: 30em; margin-left: auto; margin-right: auto">
+                    <li><a href="www.codecademy.com">Codecademy</a> - for learning the syntax of HTML and CSS</li>
+                    <li><a href="www.validator.w3.org">W3.org Validator</a> - to make sure the website is according to W3C standards</li>
+                    <li><a href="www.pages.github.com">GitHub Pages</a> - to host the website and for version controlling</li>
+                    <li>Webstorm - to create the website</li>
+                    <li><a href="https://developers.google.com/web/fundamentals/getting-started/your-first-multi-screen-site/responsive?hl=en">Google Developers
+                    </a> - a good guideline for responsive websites</li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer">
+            <p id="footer_copyright">© Császár Hunor Tamás</p>
+        </div>
+    </div>
 </body>
 </html>
