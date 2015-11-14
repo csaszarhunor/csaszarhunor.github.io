@@ -65,14 +65,13 @@ a {
     text-align: center; }
 #nav-trigger span {
     display: inline-block;
-    padding: 10px 30px;
+    padding: 10px 50%;
     background-color: black;
     color: #597272;
     cursor: pointer;
     text-transform: uppercase; }
 #nav-trigger span:after {
     display: inline-block;
-    margin-left: 10px;
     width: 20px;
     height: 10px;
     content: "";
