@@ -222,11 +222,11 @@ nav#nav-mobile a:hover {
 @media all and (max-width: 900px) {
 
     h2 {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     h1 {
-            font-size: 16px;
+            font-size: 12px;
         }
 
     #main_menu {
@@ -252,7 +252,8 @@ nav#nav-mobile a:hover {
 
     .name_box_under_svg {
         margin-left: 6px;
-        margin-right: 6px;  }
+        margin-right: 6px;
+    }
 
     .article {
         max-width: 620px;
