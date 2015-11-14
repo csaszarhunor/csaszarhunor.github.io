@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Experiment Project</title>
     <link type="text/css" rel="stylesheet" href="stylesheet.css">
+    <!--browser tab icon-->
     <link rel="shortcut icon" href="images/cube.ico">
+    <!--navigation bar-->
     <script src="js/jquery-1.9.1.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
     <script>
@@ -22,6 +24,18 @@
             });
         });
     </script>
+    <!--weather-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" charset="utf-8"></script>
+    <script src="jquery.simpleWeather.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        $.simpleWeather({
+            location: 'wichita falls, texas',
+        unit: 'f',
+        success: function(weather) { ... },
+        error: function(error) { ... }
+        });
+    </script>
+
 </head>
 <body>
     <div id="canvas">
@@ -29,8 +43,8 @@
             <nav id="nav-main">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
-                    <li><a href="project_description.html">THE PROJECT</a></li>
                     <li><a href="introduction.html">INTRODUCTION</a></li>
+                    <li><a href="project_description.html">THE PROJECT</a></li>
                     <li><a href="weather.html">LOCAL WEATHER</a></li>
                 </ul>
             </nav>
@@ -40,7 +54,6 @@
             <nav id="nav-mobile"></nav>
         </div>
         <div id="body">
-
         </div>
         <div id="footer">
             <p id="footer_copyright">© 2015 Császár Hunor Tamás</p>
