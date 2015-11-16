@@ -206,17 +206,19 @@ nav#nav-mobile a:hover {
 
 #main_menu_names {
     width: 720px;
-    margin: auto;
+    margin: 20px auto 50px auto;
 }
 
 .name_box_under_svg {
     display: inline-block;
-    margin-left: 44px;
-    margin-right: 44px;
+    width: 33%;
+    zoom: 1;
+    text-align: center;
 }
 
-.name_under_svg {
-    text-align: center;
+.name_box_under_svg > a {
+    font-size: 32px;
+    color: black;
 }
 
 @media all and (max-width: 900px) {
@@ -248,11 +250,19 @@ nav#nav-mobile a:hover {
 
     #main_menu_names {
         width: 320px;
+        margin: 10px auto 30px auto;
          }
 
     .name_box_under_svg {
-        margin-left: 5px;
-        margin-right: 5px;
+        display: inline-block;
+        width: 32%;
+        zoom: 1;
+        text-align: center;
+    }
+
+    .name_box_under_svg > a {
+        font-size: 16px;
+        color: black;
     }
 
     .article {
