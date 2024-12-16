@@ -1,0 +1,10 @@
+[data-theme="light"] .contact-container {
+    background-color: var(--red-light);
+}
+[data-theme="dark"] .contact-container {
+    background-color: var(--red-dark);
+}
+
+.contact-container {
+    
+}

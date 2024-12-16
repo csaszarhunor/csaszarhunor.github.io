@@ -1,0 +1,10 @@
+[data-theme="light"] .services-container {
+    background-color: var(--yellow-light);
+}
+[data-theme="dark"] .services-container {
+    background-color: var(--yellow-dark);
+}
+
+.services-container li::marker {
+    color: var(--yellow);
+}
