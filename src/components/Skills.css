@@ -28,6 +28,7 @@
     top: 50%;
     right: 70px;
     transform: translateY(-50%);
+    opacity: 0.15;
 }
 
 .skills-des:after {
@@ -38,4 +39,5 @@
     top: 50%;
     left: 80px;
     transform: translateY(-50%);
+    opacity: 0.15;
 }

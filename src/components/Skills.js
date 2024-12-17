@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState, useRef }  from 'react';
+import React from 'react';
 import VideoSection from './VideoSection';
 import Container from './Container';
 import videoLight from '../assets/6772576-hd_1920_1080_30fps.mp4';
@@ -17,7 +17,7 @@ const Skills = (props) => {
             videoSrc={props.theme === 'dark' ? videoDark : videoLight}
             backgroundGradient={props.theme === 'dark' ? 
                 'linear-gradient(180deg, var(--background), var(--blue-dark), transparent, transparent, var(--cyan-dark)' :
-                'linear-gradient(180deg, var(--background), var(--blue-light), transparent, transparent, var(--cyan-light))'
+                'linear-gradient(180deg, var(--background), var(--blue-light), rgba(241, 241, 241, 0.75), rgba(241, 241, 241, 0.75), var(--cyan-light))'
             }>
             <Container style={{fontWeight: '500', paddingTop: '10vh', paddingBottom: '30vh'}}>
                 <div className="skills-dev" style={{width: '50%', paddingLeft: '10px', paddingRight: '10px', textAlign: 'left', display: 'flex', justifyContent: 'flex-end'}}>

@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState, useRef }  from 'react';
+import React, { useEffect, useState, useRef }  from 'react';
 import './AboutSection.css';
 
 function AboutSection(props) {

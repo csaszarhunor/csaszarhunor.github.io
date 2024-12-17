@@ -58,6 +58,7 @@
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
     transition: all 0.4s ease;
+    opacity: 0.15;
 }
 
 .use-case-dev:before, .use-case-des:before {

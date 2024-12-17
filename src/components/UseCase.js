@@ -1,4 +1,3 @@
-import { useEffect, useRef } from 'react';
 import { SvgLoader, SvgProxy } from 'react-svgmt';
 import './UseCase.css';
 

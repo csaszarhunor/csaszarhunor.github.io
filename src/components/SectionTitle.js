@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState, useRef }  from 'react';
+import React, { useRef }  from 'react';
 import { useInViewport } from 'react-in-viewport';
 import './SectionTitle.css';
 
@@ -8,12 +8,12 @@ const SectionTitle = (props) => {
         inViewport,
         enterCount,
         leaveCount,
-      } = useInViewport(
+    } = useInViewport(
         titleRef,
         {},
         { disconnectOnLeave: false },
         props
-      );
+    );
 
     return (
         <div ref={titleRef} className={'section-title' + 

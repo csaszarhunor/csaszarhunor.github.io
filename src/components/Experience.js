@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState, useRef }  from 'react';
+import React, { useState }  from 'react';
 import VideoSection from './VideoSection';
 import Container from './Container';
 import UseCase from './UseCase';
@@ -124,7 +124,7 @@ const Experience = (props) => {
         videoSrc={props.theme === 'dark' ? videoDark : videoLight}
         backgroundGradient={props.theme === 'dark' ? 
             'linear-gradient(180deg, var(--cyan-dark), transparent, var(--yellow-dark)' :
-            'linear-gradient(180deg, var(--cyan-light), transparent, var(--yellow-light))'
+            'linear-gradient(180deg, var(--cyan-light), rgba(241, 241, 241, 0.75), var(--yellow-light))'
         }>
             <Container style={{fontWeight: '500', 
                         alignItems: 'center',

@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState, useRef }  from 'react';
+import React from 'react';
 import VideoSection from './VideoSection';
 import Container from './Container';
 import videoLight from '../assets/6551321-hd_1280_720_25fps.mp4'
@@ -18,11 +18,10 @@ const Services = (props) => {
             videoSrc={props.theme === 'dark' ? videoDark : videoLight}
             backgroundGradient={props.theme === 'dark' ? 
                 'linear-gradient(180deg, var(--yellow-dark), transparent, var(--red-dark)' :
-                'linear-gradient(180deg, var(--yellow-light), transparent, var(--red-light))'
-            }
-            style={{height: '50vh'}} >
+                'linear-gradient(180deg, var(--yellow-light), rgba(241, 241, 241, 0.75), var(--red-light))'
+            } >
             
-            <Container style={{paddingTop: '10vh', paddingBottom: '30vh'}}>
+            <Container style={{paddingTop: '10vh', paddingBottom: '30vh', flexWrap: 'wrap'}}>
                 <div style={{margin: 'auto'}}>
                     <h3>Design</h3>
                     <ul>
@@ -34,8 +33,8 @@ const Services = (props) => {
                 <div style={{margin: 'auto'}}>
                     <h3>Development</h3>
                     <ul>
+                        <li>Frontend (full stack) development</li>
                         <li>Sitebuild</li>
-                        <li>Frontend with react (or in other stack)</li>
                     </ul>
                 </div>
             </Container>

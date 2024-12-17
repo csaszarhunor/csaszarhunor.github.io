@@ -12,6 +12,10 @@
 
 .fixed .menu-container.open {
     left: calc(100% - 300px);
+    left: calc(100% - 190px);
+    @media screen and (max-width: 666px) {
+        left: calc(100% - 190px);
+    }
 }
 
 .hamburger-menu {

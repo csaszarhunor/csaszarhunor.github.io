@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState, useRef }  from 'react';
+import React from 'react';
 import VideoSection from './VideoSection';
 import Container from './Container';
 import videoLight from '../assets/7565458-hd_1920_1080_25fps.mp4';
@@ -18,7 +18,7 @@ const Contact = (props) => {
             playbackRate={props.theme === 'dark' ? '0.3' : '1.0'}
             backgroundGradient={props.theme === 'dark' ? 
                 'linear-gradient(180deg, var(--red-dark), transparent, var(--background)' :
-                'linear-gradient(180deg, var(--red-light), transparent, var(--background))'
+                'linear-gradient(180deg, var(--red-light), rgba(241, 241, 241, 0.75), var(--background))'
             }>
                 <Container style={{fontWeight: '500', 
                             alignItems: 'center',

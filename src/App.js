@@ -6,7 +6,7 @@ import Experience from './components/Experience';
 import Services from './components/Services.js';
 import Contact from './components/Contact';
 import useLocalStorage from 'use-local-storage';
-import {getScrolledPassedViewPercentage} from './components/ScrollUtils.js';
+import { useInViewport } from 'react-in-viewport';
 
 function App() {
   /*const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -14,9 +14,23 @@ function App() {
   const [theme, setTheme] = useLocalStorage('theme', 'dark');
   const header = useRef(null);
   const content = useRef(null);
+  const {
+    inViewport,
+    enterCount,
+    leaveCount,
+  } = useInViewport(
+    content,
+    {},
+    { disconnectOnLeave: false },
+    {}
+  );
 
   const switchTheme = () => {
     setTheme(theme === 'light' ? 'dark' : 'light');
+  }
+
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
   }
 
   useEffect(() => {
@@ -31,13 +45,14 @@ function App() {
   }, [])
 
   return (
-    <div className="App" data-theme={theme}>
+    <div className={inViewport ? 'App scroll-up-active' : 'App'} data-theme={theme}>
       <Header ref={header} switchTheme={switchTheme} theme={theme}></Header>
       <div ref={content} className="content">
         <Skills theme={theme}></Skills>
         <Experience theme={theme}></Experience>
         <Services theme={theme}></Services>
         <Contact theme={theme}></Contact>
+        <button onClick={scrollToTop} className='scroll-up-icon'>↑</button>
       </div>
       <footer>
         Hunor Csaszar © 2024

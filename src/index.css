@@ -33,16 +33,16 @@ body:has([data-theme='dark']) {
   --text-primary: #333;
   --blue: #60A2FB;
   --blue-dark: #223844;
-  --blue-light: #c3cfd2;
+  --blue-light: #dfebee;
   --cyan: #8DDBB5;
   --cyan-dark: #27372f;
-  --cyan-light: #91ada1;
+  --cyan-light: #c8ddd4;
   --yellow: #D9B762;
   --yellow-dark: #473920;
-  --yellow-light: #b89a4b;
+  --yellow-light: #eadebc;
   --red: #D0809D;
   --red-dark: #651f22;
-  --red-light: #dd6666;
+  --red-light: #f1cdcd;
 }
 [data-theme='dark'] {
   --background: #333;
