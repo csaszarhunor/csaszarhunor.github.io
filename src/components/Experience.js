@@ -60,7 +60,7 @@ const useCases = [
         icon: parkenaIcon,
         name: 'Parking App Prototype',
         label: 'figma',
-        link: 'https://www.figma.com/proto/6YxmJJz1YU1fvybFJA0SZH/Parkena?page-id=0%3A1&node-id=324-8797&starting-point-node-id=324%3A8797&show-proto-sidebar=1&t=6x3sLNKjcafKr7FD-1',
+        link: 'https://www.figma.com/proto/SgFmKm094dhzy8exgG75bW/Parkena?page-id=0%3A1&node-id=465-3953&viewport=465%2C349%2C0.04&t=H9ShjrVQs8B6fUyn-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=324%3A8797&show-proto-sidebar=1',
         description: 'This project was a personal hobby initiative designed to function as a parking space reservation platform. The goal was to create a user-friendly solution that simplifies the process of finding and reserving parking spaces in busy companies with limited parking spaces. The platform allows users to browse available parking spots, check real-time availability, and book spaces in advance, reducing the hassle of last-minute parking searches. By incorporating features like location-based filtering, multiple location and vehicle handling, and parking space designing, the project aimed to offer a seamless experience for both drivers and parking lot operators. This endeavor also served as a valuable opportunity to explore prototyping and wireframing skills while addressing a practical everyday challenge.',
         desktopImage: '',
         mobileImages: [parkena1, parkena2, parkena3, parkena4, parkena5, parkena6]
@@ -71,7 +71,7 @@ const useCases = [
         icon: ksaaIcon,
         name: 'Arabic Academy Website',
         label: 'figma',
-        link: 'https://www.figma.com/proto/ukJvR6KAz1Pp7gJImExkho/KSAA-design-(221124)?page-id=0%3A1&node-id=1239-4066&node-type=frame&viewport=-122%2C-13072%2C0.32&t=55JGOVm4m5565ZXb-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1239%3A4066&show-proto-sidebar=1',
+        link: 'https://www.figma.com/proto/0kTh3O4oevNqN1gsPDDsOO/KSAA-design-(221124)?page-id=0%3A1&node-id=1239-4066&viewport=375%2C-24%2C0.02&t=aVkQbi302NjJMFGY-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=1239%3A4066&show-proto-sidebar=1',
         description: "The Kingdom of Saudi Arabia’s Arabic Academy approached our company with the need for a complete redesign of their website to better reflect their mission and values while offering an improved user experience. At the time, our in-house designer was on an extended holiday, which left a critical gap in the project. Drawing on my background in design, I took the initiative to step into the role and lead the design process for the key elements of the website. Once the design phase was completed, I transitioned into my role as part of the development team, contributing as a frontend developer. This dual contribution—both in design and development—allowed me to take a holistic approach to the project, ensuring a seamless execution from concept to delivery.",
         desktopImage: ksaa_web,
         mobileImages: []
