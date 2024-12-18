@@ -16,8 +16,9 @@ footer {
 
 .scroll-up-icon {
     position: fixed;
+    z-index: 12;
     bottom: 40px;
-    right: -20px;
+    right: -50px;
     transition: right .4s ease;
     border: none;
     background-color: var(--background);

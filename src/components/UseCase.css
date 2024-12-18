@@ -24,7 +24,7 @@
 }
 
 .use-case-btn:hover > div:before, .use-case-btn:hover > div:after {
-    color: var(--cyan);
+    opacity: 1;
     font-size: 310px;
 }
 

@@ -8,3 +8,9 @@
 .services-container li::marker {
     color: var(--yellow);
 }
+
+@media screen and (max-width: 850px) {
+    .services-container .container div {
+        width: 100%;
+    }
+}

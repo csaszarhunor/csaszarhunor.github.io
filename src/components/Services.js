@@ -33,7 +33,7 @@ const Services = (props) => {
                 <div style={{margin: 'auto'}}>
                     <h3>Development</h3>
                     <ul>
-                        <li>Frontend (full stack) development</li>
+                        <li>Frontend / full stack web development</li>
                         <li>Sitebuild</li>
                     </ul>
                 </div>

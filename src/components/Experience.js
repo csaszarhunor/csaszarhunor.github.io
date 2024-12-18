@@ -29,6 +29,7 @@ import budget2 from '../assets/budget2.jpg';
 import budget3 from '../assets/budget3.jpg';
 import budget4 from '../assets/budget4.jpg';
 import budget5 from '../assets/budget5.jpg';
+import cc from '../assets/cc.png';
 
 const useCases = [
     {
@@ -105,7 +106,7 @@ const useCases = [
         label: '',
         link: '',
         description: 'The programming school where I learned coding also offered me the opportunity to contribute as a graphic designer. This collaboration allowed me to combine my creative skills with my technical journey, resulting in the production of a wide range of marketing materials. These included both print assets, such as brochures, flyers, and posters, as well as digital content like social media graphics, email templates, and website visuals. Working closely with the school’s team, I ensured that all designs effectively communicated their brand identity and appealed to prospective students. ',
-        desktopImage: '',
+        desktopImage: cc,
         mobileImages: []
     }
 ];
@@ -165,6 +166,10 @@ const Experience = (props) => {
                         })}
                     </div>
                 </Container>
+                <div className='navigator'>
+                    <button type='button' className='navigate-prev' onClick={() => setActiveUseCase((activeUseCase - 1 < 0 ? useCases.length - 1 : activeUseCase - 1))}>{'<'}</button>
+                    <button type='button' className='navigate-next' onClick={() => setActiveUseCase((activeUseCase + 1 >= useCases.length ? 0 : activeUseCase + 1))}>{'>'}</button>
+                </div>
             </div>
         </VideoSection>
     )
