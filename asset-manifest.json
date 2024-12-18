@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4193f659.css",
-    "main.js": "/static/js/main.f78539c8.js",
+    "main.css": "/static/css/main.c8132d75.css",
+    "main.js": "/static/js/main.11b78eb8.js",
     "static/js/787.cd339254.chunk.js": "/static/js/787.cd339254.chunk.js",
     "static/media/7565458-hd_1920_1080_25fps.mp4": "/static/media/7565458-hd_1920_1080_25fps.de6fc41473f4118b9830.mp4",
     "static/media/6933537-hd_2048_1080_24fps.mp4": "/static/media/6933537-hd_2048_1080_24fps.29c8e71437fe2e00f65f.mp4",
@@ -12,6 +12,7 @@
     "static/media/6551321-hd_1280_720_25fps.mp4": "/static/media/6551321-hd_1280_720_25fps.6b53a62d8cd0ae188753.mp4",
     "static/media/6772576-hd_1920_1080_30fps.mp4": "/static/media/6772576-hd_1920_1080_30fps.0da8e983e6f5818b3809.mp4",
     "static/media/ksaa.jpg": "/static/media/ksaa.a1e374abf89763427c4c.jpg",
+    "static/media/cc.png": "/static/media/cc.0e0de717bec955fb8d0b.png",
     "static/media/l2energy.hu_ 1.jpg": "/static/media/l2energy.hu_ 1.56bba78b1123ca582571.jpg",
     "static/media/l2energy.hu_mobile.jpg": "/static/media/l2energy.hu_mobile.186dd32d4b34d164101c.jpg",
     "static/media/ksaa_gov_sa 1.jpg": "/static/media/ksaa_gov_sa 1.b315443af23cf2fbd4ec.jpg",
@@ -52,12 +53,12 @@
     "index.html": "/index.html",
     "static/media/parkena.svg": "/static/media/parkena.82687e21f3bbb7be8c9561f880af5884.svg",
     "static/media/feather.svg": "/static/media/feather.7dcff9586ebbdc74559bd1f2fc007859.svg",
-    "main.4193f659.css.map": "/static/css/main.4193f659.css.map",
-    "main.f78539c8.js.map": "/static/js/main.f78539c8.js.map",
+    "main.c8132d75.css.map": "/static/css/main.c8132d75.css.map",
+    "main.11b78eb8.js.map": "/static/js/main.11b78eb8.js.map",
     "787.cd339254.chunk.js.map": "/static/js/787.cd339254.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4193f659.css",
-    "static/js/main.f78539c8.js"
+    "static/css/main.c8132d75.css",
+    "static/js/main.11b78eb8.js"
   ]
 }
