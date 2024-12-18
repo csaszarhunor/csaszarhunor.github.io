@@ -17,18 +17,17 @@ import codecoolIcon from '../assets/codecool.svg';
 import l2ImgDesk from '../assets/l2energy.hu_ 1.jpg';
 import l2ImgMobile from '../assets/l2energy.hu_mobile.jpg';
 import ksaa from '../assets/ksaa.jpg';
-import parkena1 from '../assets/parkena1.jpg';
-import parkena2 from '../assets/parkena2.jpg';
-import parkena3 from '../assets/parkena3.jpg';
-import parkena4 from '../assets/parkena4.jpg';
-import parkena5 from '../assets/parkena5.jpg';
-import parkena6 from '../assets/parkena6.jpg';
-import ksaa_web from '../assets/ksaa_gov_sa 1.jpg';
-import budget1 from '../assets/budget1.jpg';
-import budget2 from '../assets/budget2.jpg';
-import budget3 from '../assets/budget3.jpg';
-import budget4 from '../assets/budget4.jpg';
-import budget5 from '../assets/budget5.jpg';
+import parkena1 from '../assets/parkena1.png';
+import parkena2 from '../assets/parkena2.png';
+import parkena3 from '../assets/parkena3.png';
+import parkena4 from '../assets/parkena4.png';
+import parkena5 from '../assets/parkena5.png';
+import ksaa_web from '../assets/ksaa.png';
+import budget1 from '../assets/budgetmanager1.png';
+import budget2 from '../assets/budgetmanager2.png';
+import budget3 from '../assets/budgetmanager3.png';
+import budget4 from '../assets/budgetmanager4.png';
+import budget5 from '../assets/budgetmanager5.png';
 import cc from '../assets/cc.png';
 
 const useCases = [
@@ -63,7 +62,7 @@ const useCases = [
         link: 'https://www.figma.com/proto/SgFmKm094dhzy8exgG75bW/Parkena?page-id=0%3A1&node-id=465-3953&viewport=465%2C349%2C0.04&t=H9ShjrVQs8B6fUyn-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=324%3A8797&show-proto-sidebar=1',
         description: 'This project was a personal hobby initiative designed to function as a parking space reservation platform. The goal was to create a user-friendly solution that simplifies the process of finding and reserving parking spaces in busy companies with limited parking spaces. The platform allows users to browse available parking spots, check real-time availability, and book spaces in advance, reducing the hassle of last-minute parking searches. By incorporating features like location-based filtering, multiple location and vehicle handling, and parking space designing, the project aimed to offer a seamless experience for both drivers and parking lot operators. This endeavor also served as a valuable opportunity to explore prototyping and wireframing skills while addressing a practical everyday challenge.',
         desktopImage: '',
-        mobileImages: [parkena1, parkena2, parkena3, parkena4, parkena5, parkena6]
+        mobileImages: [parkena1, parkena2, parkena3, parkena4, parkena5]
     },
     {
         design: true,
@@ -81,8 +80,8 @@ const useCases = [
         dev: true,
         icon: budgetingIcon,
         name: 'Budgeting App',
-        label: '',
-        link: '',
+        label: 'code',
+        link: 'https://github.com/csaszarhunor/budget-manager',
         description: "This hobby project served as a multifaceted learning experience, allowing me to dive deeper into React.js and explore its potential for building dynamic, modern web applications. It also provided an opportunity to experiment with various CSS libraries, enabling me to understand their features, limitations, and how they could streamline the styling process in a React-based environment. Beyond the frontend exploration, the project also acted as a practical test case to assess how the Liferay platform integrates with a React.js frontend.",
         desktopImage: '',
         mobileImages: [budget1, budget2, budget3, budget4, budget5]
