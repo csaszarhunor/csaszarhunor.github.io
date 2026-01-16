@@ -13,6 +13,8 @@ import parkenaIcon from '../assets/parkena.svg';
 import budgetingIcon from '../assets/feather.svg';
 import kbcIcon from '../assets/KBC.svg';
 import codecoolIcon from '../assets/codecool.svg';
+import uniqaIcon from '../assets/uniqa.svg';
+import redseaIcon from '../assets/redsea.svg';
 
 import l2ImgDesk from '../assets/l2energy.hu_ 1.jpg';
 import l2ImgMobile from '../assets/l2energy.hu_mobile.jpg';
@@ -34,13 +36,16 @@ const useCases = [
     {
         design: true,
         dev: true,
-        icon: l2eIcon,
-        name: 'L2 Energy',
-        label: 'website',
-        link: 'https://www.l2energy.hu',
-        description: 'A mathematical and algorithmic trading company specializing in the energy market approached me with the request to design a brand identity that reflects their scientific and data-driven approach. They wanted a clean, professional, and innovative aesthetic that would resonate with their highly analytical audience. Additionally, I was tasked with creating a user-friendly and visually appealing website that effectively communicates their expertise, services, and technological edge in the energy trading sector. This project required a deep understanding of their unique positioning in the market and the ability to translate complex concepts into a cohesive and accessible brand presence.',
-        desktopImage: l2ImgDesk,
-        mobileImages: [l2ImgMobile]
+        icon: ksaaIcon,
+        name: 'Arabic Academy Website',
+        label: 'figma',
+        link: 'https://www.figma.com/proto/0kTh3O4oevNqN1gsPDDsOO/KSAA-design-(221124)?page-id=0%3A1&node-id=1239-4066&viewport=375%2C-24%2C0.02&t=aVkQbi302NjJMFGY-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=1239%3A4066&show-proto-sidebar=1',
+        description: "The Arabic Academy of Saudi Arabia is an institution that aims to popularise the Arabic language.",
+        role: 'UI design | Frontend development',
+        technologies: 'Figma | Liferay | HTML5, CSS3, JavaScript',
+        contribution: 'Designed landing page UI components | Implemented the frontend within the Liferay platform',
+        desktopImage: ksaa_web,
+        mobileImages: []
     },
     {
         design: false,
@@ -49,42 +54,12 @@ const useCases = [
         name: 'Arabic Academy Event Platform',
         label: '',
         link: '',
-        description: "I had the privilege of being the frontend developer of the team responsible for developing the redesigned platform for Arabic Hackathons in the Kingdom of Saudi Arabia. This platform aimed to provide an enhanced user experience, incorporating a modern design and intuitive functionality to support the institutions's aim to popularise the Arabic language. My role involved implementing responsive and accessible interfaces, optimising performance, and ensuring seamless navigation to engage users effectively, also I took part of the team's effort to design the complex system that involved many overlapping layers of competition phases and user group permissions.",
+        description: "The Arabic Academy of Saudi Arabia is an institution that aims to popularise the Arabic language.",
+        role: 'Frontend development | Platform design',
+        technologies: 'Java | Liferay | UML design | HTML5, CSS3, JavaScript',
+        contribution: 'Implemented the frontend within the Liferay platform | Designed the platform for an enterprise level language competition system with all the necessary roles, permissions and competition stages',
         desktopImage: ksaa,
         mobileImages: []
-    },
-    {
-        design: true,
-        dev: false,
-        icon: parkenaIcon,
-        name: 'Parking App Prototype',
-        label: 'figma',
-        link: 'https://www.figma.com/proto/SgFmKm094dhzy8exgG75bW/Parkena?page-id=0%3A1&node-id=465-3953&viewport=465%2C349%2C0.04&t=H9ShjrVQs8B6fUyn-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=324%3A8797&show-proto-sidebar=1',
-        description: 'This project was a personal hobby initiative designed to function as a parking space reservation platform. The goal was to create a user-friendly solution that simplifies the process of finding and reserving parking spaces in busy companies with limited parking spaces. The platform allows users to browse available parking spots, check real-time availability, and book spaces in advance, reducing the hassle of last-minute parking searches. By incorporating features like location-based filtering, multiple location and vehicle handling, and parking space designing, the project aimed to offer a seamless experience for both drivers and parking lot operators. This endeavor also served as a valuable opportunity to explore prototyping and wireframing skills while addressing a practical everyday challenge.',
-        desktopImage: '',
-        mobileImages: [parkena1, parkena2, parkena3, parkena4, parkena5]
-    },
-    {
-        design: true,
-        dev: true,
-        icon: ksaaIcon,
-        name: 'Arabic Academy Website',
-        label: 'figma',
-        link: 'https://www.figma.com/proto/0kTh3O4oevNqN1gsPDDsOO/KSAA-design-(221124)?page-id=0%3A1&node-id=1239-4066&viewport=375%2C-24%2C0.02&t=aVkQbi302NjJMFGY-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=1239%3A4066&show-proto-sidebar=1',
-        description: "The Kingdom of Saudi Arabia’s Arabic Academy approached our company with the need for a complete redesign of their website to better reflect their mission and values while offering an improved user experience. At the time, our in-house designer was on an extended holiday, which left a critical gap in the project. Drawing on my background in design, I took the initiative to step into the role and lead the design process for the key elements of the website. Once the design phase was completed, I transitioned into my role as part of the development team, contributing as a frontend developer. This dual contribution—both in design and development—allowed me to take a holistic approach to the project, ensuring a seamless execution from concept to delivery.",
-        desktopImage: ksaa_web,
-        mobileImages: []
-    },
-    {
-        design: true,
-        dev: true,
-        icon: budgetingIcon,
-        name: 'Budgeting App',
-        label: 'code',
-        link: 'https://github.com/csaszarhunor/budget-manager',
-        description: "This hobby project served as a multifaceted learning experience, allowing me to dive deeper into React.js and explore its potential for building dynamic, modern web applications. It also provided an opportunity to experiment with various CSS libraries, enabling me to understand their features, limitations, and how they could streamline the styling process in a React-based environment. Beyond the frontend exploration, the project also acted as a practical test case to assess how the Liferay platform integrates with a React.js frontend.",
-        desktopImage: '',
-        mobileImages: [budget1, budget2, budget3, budget4, budget5]
     },
     {
         design: false,
@@ -93,9 +68,166 @@ const useCases = [
         name: 'kbc.ie',
         label: '',
         link: '',
-        description: "Based on the designs provided by Wondr, I had the privilege of participating as a frontend developer in the Irish KBC Bank’s ambitious project to migrate their website to the Liferay platform. This initiative also involved transitioning the website into the cloud, a cutting-edge and transformative technology at the time. My role focused on implementing the frontend aspects of the design, ensuring a seamless user experience that adhered to the high standards set by the design team.",
+        description: "KBC Ireland website UX / UI redesign by Wondr, implementation in the Liferay platform on Liferay cloud environment.",
+        role: 'Frontend development',
+        technologies: 'Java | Liferay | Liferay Cloud | HTML5, CSS3, JavaScript',
+        contribution: 'Built UI layouts, components (forms, banking calculators, sliders, etc.) | Built infrastructure in Liferay Cloud',
         desktopImage: '',
         mobileImages: []
+    },
+    {
+        design: false,
+        dev: true,
+        icon: redseaIcon,
+        name: 'redseaglobal.com',
+        label: 'website',
+        link: 'https://www.redseaglobal.com',
+        description: "Red Sea Global is part of Saudi Arabia's Vision 2030 project that aims to boost tourism. Frontend codebase integration into Liferay platform in collaboration with multiple international business, design and developer teams.",
+        role: 'Frontend development',
+        technologies: 'Java | Liferay | HTML5, CSS3, JavaScript',
+        contribution: 'Integrated frontend codebase into Liferay platform',
+        desktopImage: '',
+        mobileImages: []
+    },
+    {
+        design: false,
+        dev: true,
+        icon: uniqaIcon,
+        name: 'uniqa.hu',
+        label: 'website',
+        link: 'https://www.uniqa.hu',
+        description: "Liferay portal redesign project.",
+        role: 'Frontend development',
+        technologies: 'Liferay | HTML5, CSS3, JavaScript',
+        contribution: 'Implemented the frontend within the Liferay platform',
+        desktopImage: '',
+        mobileImages: []
+    },
+    {
+        design: false,
+        dev: true,
+        icon: '',
+        name: 'A1.si',
+        label: 'website',
+        link: 'https://www.a1.si',
+        description: "Fast paced business feature development on a complex Liferay platform of international telecommunication company.",
+        role: 'Frontend development',
+        technologies: 'Liferay | HTML5, CSS3, JavaScript',
+        contribution: 'Implemented the frontend within the Liferay platform',
+        desktopImage: '',
+        mobileImages: []
+    },
+    {
+        design: false,
+        dev: true,
+        icon: '',
+        name: 'msci.com',
+        label: 'website',
+        link: 'https://www.msci.com',
+        description: "Liferay portal project.",
+        role: 'Frontend development',
+        technologies: 'Liferay | HTML5, CSS3, JavaScript',
+        contribution: 'Implemented the frontend within the Liferay platform',
+        desktopImage: '',
+        mobileImages: []
+    },
+    {
+        design: false,
+        dev: true,
+        icon: '',
+        name: 'vigado.hu',
+        label: 'website',
+        link: 'https://www.vigado.hu',
+        description: "Liferay portal project.",
+        role: 'Frontend development',
+        technologies: 'Liferay | HTML5, CSS3, JavaScript',
+        contribution: 'Implemented the frontend within the Liferay platform',
+        desktopImage: '',
+        mobileImages: []
+    },
+    {
+        design: false,
+        dev: true,
+        icon: '',
+        name: 'AJBH.hu',
+        label: 'website',
+        link: 'https://www.ajbh.hu',
+        description: "Liferay portal redesign project.",
+        role: 'Frontend development',
+        technologies: 'Liferay | HTML5, CSS3, JavaScript',
+        contribution: 'Implemented the frontend within the Liferay platform',
+        desktopImage: '',
+        mobileImages: []
+    },
+    {
+        design: false,
+        dev: true,
+        icon: '',
+        name: 'uni-mate.hu',
+        label: 'website',
+        link: 'https://www.uni-mate.hu',
+        description: "Liferay portal redesign project.",
+        role: 'Frontend development',
+        technologies: 'Liferay | HTML5, CSS3, JavaScript',
+        contribution: 'Implemented the frontend within the Liferay platform',
+        desktopImage: '',
+        mobileImages: []
+    },
+    {
+        design: false,
+        dev: true,
+        icon: '',
+        name: 'BMLV intranet',
+        label: '',
+        link: '',
+        description: "Liferay portal project.",
+        role: 'Frontend development',
+        technologies: 'Liferay | HTML5, CSS3, JavaScript',
+        contribution: 'Implemented the frontend within the Liferay platform',
+        desktopImage: '',
+        mobileImages: []
+    },
+    {
+        design: true,
+        dev: true,
+        icon: l2eIcon,
+        name: 'L2 Energy',
+        label: 'website',
+        link: 'https://www.l2energy.hu',
+        description: 'L2Energy is an energy trading company specializing in mathematical and algorithmic trading.',
+        role: 'UI and brand design | Frontend development',
+        technologies: 'Figma | Wordpress | HTML5, CSS3, JavaScript',
+        contribution: 'Designed the brand and website | Implemented UI in Wordpress',
+        desktopImage: l2ImgDesk,
+        mobileImages: [l2ImgMobile]
+    },
+    {
+        design: true,
+        dev: true,
+        icon: budgetingIcon,
+        name: 'Budgeting App',
+        label: 'code',
+        link: 'https://github.com/csaszarhunor/budget-manager',
+        description: "Hobby project for React practice.",
+        role: 'UI design / Frontend development',
+        technologies: 'Figma | React | HTML5, CSS3, JavaScript',
+        contribution: 'Implemented a small React-based budgeting app using components, hooks, and basic state management.',
+        desktopImage: '',
+        mobileImages: [budget1, budget2, budget3, budget4, budget5]
+    },
+    {
+        design: true,
+        dev: false,
+        icon: parkenaIcon,
+        name: 'Parking App Prototype',
+        label: 'figma',
+        link: 'https://www.figma.com/proto/SgFmKm094dhzy8exgG75bW/Parkena?page-id=0%3A1&node-id=465-3953&viewport=465%2C349%2C0.04&t=H9ShjrVQs8B6fUyn-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=324%3A8797&show-proto-sidebar=1',
+        description: 'Hobby project for a parking space reservation platform.',
+        role: 'UI / UX design',
+        technologies: 'Figma',
+        contribution: 'Designed parking app with user role workflows',
+        desktopImage: '',
+        mobileImages: [parkena1, parkena2, parkena3, parkena4, parkena5]
     },
     {
         design: true,
@@ -105,6 +237,9 @@ const useCases = [
         label: '',
         link: '',
         description: 'The programming school where I learned coding also offered me the opportunity to contribute as a graphic designer. This collaboration allowed me to combine my creative skills with my technical journey, resulting in the production of a wide range of marketing materials. These included both print assets, such as brochures, flyers, and posters, as well as digital content like social media graphics, email templates, and website visuals. Working closely with the school’s team, I ensured that all designs effectively communicated their brand identity and appealed to prospective students. ',
+        role: 'Branding design',
+        technologies: 'Adobe Illustrator, Indesign, Photoshop',
+        contribution: 'Designed branding related digital and print materials (ad banners, leaflets, email templates, posters, illustrations, logos etc.)',
         desktopImage: cc,
         mobileImages: []
     }
@@ -118,7 +253,7 @@ const Experience = (props) => {
         <VideoSection 
         className='experience-container' 
         id='experience'
-        title='use cases' 
+        title='experience' 
         initFrom='right' 
         color='cyan'
         videoSrc={props.theme === 'dark' ? videoDark : videoLight}
@@ -153,7 +288,25 @@ const Experience = (props) => {
                 <Container>
                     <h3>{useCases[activeUseCase].name}</h3>
                     {useCases[activeUseCase].label && useCases[activeUseCase].link ? (
-                        <a href={useCases[activeUseCase].link} target='_blank' title={useCases[activeUseCase].label}>{useCases[activeUseCase].label}</a>
+                        <p><a href={useCases[activeUseCase].link} target='_blank' title={useCases[activeUseCase].label}>{useCases[activeUseCase].label}</a></p>
+                    ) : ''}
+                    {useCases[activeUseCase].role ? (
+                        <div>
+                            <h4>Role: </h4>
+                            <p>{useCases[activeUseCase].role}</p>
+                        </div>
+                    ) : ''}
+                    {useCases[activeUseCase].technologies ? (
+                        <div>
+                            <h4>Technologies: </h4>
+                            <p>{useCases[activeUseCase].technologies}</p>
+                        </div>
+                    ) : ''}
+                    {useCases[activeUseCase].contribution ? (
+                        <div>
+                            <h4>Contribution: </h4>
+                            <p>{useCases[activeUseCase].contribution}</p>
+                        </div>
                     ) : ''}
                     <p>{useCases[activeUseCase].description}</p>
                     <div className='images'>

@@ -100,9 +100,9 @@ function Menu(props) {
                     </a>
                     <ul className="menu-items">
                         <li><a href="#skills" className="skills">skills</a></li>
-                        <li><a href="#experience" className="experience">use cases</a></li>
-                        <li><a href="#services" className="services">services</a></li>
-                        <li><a href="#contact" className="contact">contact</a></li>
+                        <li><a href="#experience" className="experience">experience</a></li>
+                        <li><a href="#services" className="services">capabilities</a></li>
+                        <li><a href="#contact" className="contact">contact & CV</a></li>
                     </ul>
                 </nav>
                 <button className="theme-switch-btn" onClick={props.switchTheme}>

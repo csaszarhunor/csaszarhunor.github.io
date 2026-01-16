@@ -79,8 +79,8 @@ function AboutSection(props) {
             <div className={hiddenIntro ? 'intro hidden' : 'intro'}>
                 <p>Hello,</p>
                 <p>I’m <span data-fonetic-version="hu:nəʊr">Hunor</span>.</p>
-                <p>I <b>[</b>design<b>]</b> and <b>{'{'}</b>develop<b>{'}'}</b></p>
-                <p>digital experience.</p>
+                <p>frontend-focused web developer</p>
+                <p>with 7+ years of xp building web apps & UI</p>
             </div>
         </div>
     );

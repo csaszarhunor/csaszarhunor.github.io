@@ -20,28 +20,31 @@ const Skills = (props) => {
                 'linear-gradient(180deg, var(--background), var(--blue-light), rgba(241, 241, 241, 0.75), rgba(241, 241, 241, 0.75), var(--cyan-light))'
             }>
             <Container style={{fontWeight: '500', paddingTop: '10vh', paddingBottom: '30vh'}}>
-                <div className="skills-dev" style={{width: '50%', paddingLeft: '10px', paddingRight: '10px', textAlign: 'left', display: 'flex', justifyContent: 'flex-end'}}>
+                <div className="skills-dev" style={{width: '33%', paddingLeft: '10px', paddingRight: '10px', textAlign: 'left', display: 'flex', justifyContent: 'center'}}>
                     <div style={{display: 'inline-block'}}>
-                        <p>javascript</p>
-                        <p>react</p>
-                        <p>css5</p>
-                        <p>html5</p>
-                        <p>java</p>
-                        <p>wordpress</p>
-                        <p>liferay</p>
-                        <p>python</p>
+                        <h3>frontend</h3>
+                        <p>JavaScript (ES6+)</p>
+                        <p>HTML5, CSS3</p>
+                        <p>Responsive layouts, Accessibility</p>
+                        <p>Basic React (hooks, components)</p>
                     </div>
                 </div>
-                <div className="skills-des" style={{width: '50%', paddingLeft: '10px', paddingRight: '10px', textAlign: 'right', display: 'flex', justifyContent: 'flex-start'}}>
+                <div className="skills-dev" style={{width: '33%', paddingLeft: '10px', paddingRight: '10px', textAlign: 'left', display: 'flex', justifyContent: 'center'}}>
                     <div style={{display: 'inline-block'}}>
-                        <p>figma</p>
-                        <p>prototyping</p>
-                        <p>wireframing</p>
-                        <p>web design</p>
-                        <p>print design</p>
+                        <h3>backend / platforms</h3>
+                        <p>Java</p>
+                        <p>Liferay</p>
+                        <p>WordPress</p>
+                        <p>REST APIs</p>
+                    </div>
+                </div>
+                <div className="skills-des" style={{width: '33%', paddingLeft: '10px', paddingRight: '10px', textAlign: 'left', display: 'flex', justifyContent: 'center'}}>
+                    <div style={{display: 'inline-block'}}>
+                        <h3>design</h3>
+                        <p>digital / print design</p>
                         <p>branding</p>
-                        <p>affinity suite</p>
-                        <p>adobe suite</p>
+                        <p>Figma</p>
+                        <p>adobe / affinity suites</p>
                     </div>
                 </div>
             </Container>
