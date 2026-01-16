@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e74d2971.css",
-    "main.js": "/static/js/main.b6a152ad.js",
+    "main.css": "/static/css/main.d77aa923.css",
+    "main.js": "/static/js/main.c9c2f5cd.js",
     "static/js/787.cd339254.chunk.js": "/static/js/787.cd339254.chunk.js",
     "static/media/7565458-hd_1920_1080_25fps.mp4": "/static/media/7565458-hd_1920_1080_25fps.de6fc41473f4118b9830.mp4",
     "static/media/6933537-hd_2048_1080_24fps.mp4": "/static/media/6933537-hd_2048_1080_24fps.29c8e71437fe2e00f65f.mp4",
@@ -45,19 +45,21 @@
     "static/media/parkena2.png": "/static/media/parkena2.43674441fa624c3ac27a.png",
     "static/media/parkena4.png": "/static/media/parkena4.27a89de67093fc22090b.png",
     "static/media/parkena1.png": "/static/media/parkena1.4804c5f01ce2efce5920.png",
+    "static/media/redsea.svg": "/static/media/redsea.5b4f8b2108a5d908af14b2e7f89f734b.svg",
     "static/media/ksaa.svg": "/static/media/ksaa.3a4ea573b893ccb7b409c4d70e62165f.svg",
     "static/media/l2e.svg": "/static/media/l2e.a9a0068a24cd6c41ea1c8946a2ad9d00.svg",
+    "static/media/uniqa.svg": "/static/media/uniqa.15ecc79d8a8ce1bbf63bb3a6d7a445d3.svg",
     "static/media/codecool.svg": "/static/media/codecool.fa7a75ac0eac8a8b59ebd99be6277e92.svg",
     "static/media/KBC.svg": "/static/media/KBC.42317e14bdade35e0e7508829c40ff88.svg",
     "index.html": "/index.html",
     "static/media/parkena.svg": "/static/media/parkena.82687e21f3bbb7be8c9561f880af5884.svg",
     "static/media/feather.svg": "/static/media/feather.7dcff9586ebbdc74559bd1f2fc007859.svg",
-    "main.e74d2971.css.map": "/static/css/main.e74d2971.css.map",
-    "main.b6a152ad.js.map": "/static/js/main.b6a152ad.js.map",
+    "main.d77aa923.css.map": "/static/css/main.d77aa923.css.map",
+    "main.c9c2f5cd.js.map": "/static/js/main.c9c2f5cd.js.map",
     "787.cd339254.chunk.js.map": "/static/js/787.cd339254.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e74d2971.css",
-    "static/js/main.b6a152ad.js"
+    "static/css/main.d77aa923.css",
+    "static/js/main.c9c2f5cd.js"
   ]
 }
